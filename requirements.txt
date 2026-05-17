@@ -1,0 +1,7 @@
+# No external dependencies — the pipeline uses only Python stdlib (json, re, math,
+# argparse, pathlib, collections, subprocess). Tested on Python 3.9+.
+#
+# If you want to extend the project with extra analysis, common additions:
+# pandas
+# numpy
+# beautifulsoup4

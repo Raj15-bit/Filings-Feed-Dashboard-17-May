@@ -1,0 +1,23 @@
+# Intermediate JSON files — regenerated each run
+data/*.json
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Keep the input/output folders but ignore week-specific files
+# (comment these out if you DO want to commit each week's snapshot)
+# input/*.html
+# !input/.gitkeep
+# output/*.html
+# !output/.gitkeep
